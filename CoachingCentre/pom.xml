@@ -1,26 +1,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.cg</groupId>
-  <artifactId>CoachingCentre</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>CoachingCentre Maven Webapp</name>
-  <url>http://maven.apache.org</url>
- <properties>
-		<ojdbc14Path>D:\ojdbc14.jar</ojdbc14Path>
-	</properties>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cg</groupId>
+	<artifactId>CoachingCentre</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>CoachingCentre Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
 	<dependencies>
 
 		<!-- Junit Dependency -->
-		
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.4</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
@@ -39,9 +37,9 @@
 			<artifactId>wadl-client-plugin</artifactId>
 			<version>1.1.6</version>
 		</dependency>
-		
+
 		<!-- Spring MVC support -->
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -134,13 +132,6 @@
 			<artifactId>jaxb-api</artifactId>
 			<version>2.2.3</version>
 		</dependency>
-	
-		<!-- ojdbc -->
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>11.2.0</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.jboss.logging</groupId>
@@ -161,7 +152,7 @@
 			<version>1.0.0.Final</version>
 		</dependency>
 	</dependencies>
-  <build>
-    <finalName>CoachingCentre</finalName>
-  </build>
+	<build>
+		<finalName>CoachingCentre</finalName>
+	</build>
 </project>
